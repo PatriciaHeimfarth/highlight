@@ -1,3 +1,4 @@
+<?php
 /*
  * Plugin Name:       Highlight
  * Plugin URI:        https://example.com 
@@ -13,3 +14,9 @@
  * Text Domain:       my-basics-plugin
  * Domain Path:       /languages
  */
+
+
+function change_title( $title ) {
+	return 'Change: ' . $title;
+}
+add_filter( 'the_title', 'change_title' );
