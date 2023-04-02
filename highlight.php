@@ -2,7 +2,7 @@
 /*
  * Plugin Name:       Highlight Background
  * Description:       Highlight the post backgrounds according to their state (published, planned, draft)
- * Version:           0.0.1
+ * Version:           1.0
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Patricia Heimfarth
