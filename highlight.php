@@ -15,8 +15,14 @@
  * Domain Path:       /languages
  */
 
+ add_action('admin_head', 'post_background');
 
-function change_title( $title ) {
-	return 'Change: ' . $title;
-}
-add_filter( 'the_title', 'change_title' );
+ function post_background() {
+	 print "
+		 <style>
+			#the-list .status-publish {background-color: lightgreen}
+			#the-list .status-draft {background-color: lightgrey}
+			#the-list .status-future {background-color: pink}
+		 </style>
+		 ";
+ }
