@@ -2,7 +2,7 @@
 /*
  * Plugin Name:       Highlight Background
  * Plugin URI:        https://heimpa.de/
- * Description:       Highlight
+ * Description:       Highlight the post backgrounds according to their state (published, planned, draft)
  * Version:           0.0.1
  * Requires at least: 5.2
  * Requires PHP:      7.2
